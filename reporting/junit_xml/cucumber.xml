@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?><testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="5" time="38.572995">
+<testcase classname="Enter Only One Data" name="Login with invalid credentials" time="5.495266">
+<system-out><![CDATA[Given User is on login page.................................................passed
+When Enter invalid email and password from Data Table.......................passed
+Then Error message appears..................................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Enter All Values" name="Enter Given data" time="13.309709">
+<system-out><![CDATA[Given User has to be on activity information page...........................passed
+When Try entering values "active" and "admin"...............................passed
+Then Values are entered without any error...................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Enter All Values" name="Enter Given data 2" time="7.141871">
+<system-out><![CDATA[Given User has to be on activity information page...........................passed
+When Try entering values "away" and "student1"..............................passed
+Then Values are entered without any error...................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Enter All Values" name="Enter Given data 3" time="7.280928">
+<system-out><![CDATA[Given User has to be on activity information page...........................passed
+When Try entering values "sleep" and "student2".............................passed
+Then Values are entered without any error...................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Login feature" name="Log in with valid credentials" time="5.345221">
+<system-out><![CDATA[Given User need to be on the signin page....................................passed
+When Login with valid email and password....................................passed
+Then User shall be allowed to login no error message shown..................passed
+]]></system-out>
+</testcase>
+</testsuite>

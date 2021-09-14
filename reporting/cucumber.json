@@ -1,0 +1,473 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 3756652952,
+              "status": "passed"
+            },
+            "match": {
+              "location": "SetUp.initializeTest()"
+            }
+          }
+        ],
+        "line": 4,
+        "name": "Login with invalid credentials",
+        "description": "",
+        "id": "enter-only-one-data;login-with-invalid-credentials",
+        "after": [
+          {
+            "result": {
+              "duration": 166940072,
+              "status": "passed"
+            },
+            "match": {
+              "location": "SetUp.tearDownTest(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 746013744,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "User is on login page",
+            "match": {
+              "location": "EnterUsingDataTable.user_is_on_login_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 779503058,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "Enter invalid email and password from Data Table",
+            "match": {
+              "location": "EnterUsingDataTable.enter_invalid_email_and_password_from_Data_Table(DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "email",
+                  "password"
+                ],
+                "line": 7
+              },
+              {
+                "cells": [
+                  "danish.bangash05@gmail.com",
+                  "123456"
+                ],
+                "line": 8
+              },
+              {
+                "cells": [
+                  "hamzasohrab72@gmail.com",
+                  "12345"
+                ],
+                "line": 9
+              }
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 46156382,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "Error message appears",
+            "match": {
+              "location": "EnterUsingDataTable.error_message_appear()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Enter Only One Data",
+    "description": "",
+    "id": "enter-only-one-data",
+    "keyword": "Feature",
+    "uri": "enter_data_table.feature",
+    "tags": [
+      {
+        "line": 1,
+        "name": "@FunctionalTest"
+      }
+    ]
+  },
+  {
+    "line": 2,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 2114159088,
+              "status": "passed"
+            },
+            "match": {
+              "location": "SetUp.initializeTest()"
+            }
+          }
+        ],
+        "line": 10,
+        "name": "Enter Given data",
+        "description": "",
+        "id": "enter-all-values;enter-given-data;;2",
+        "after": [
+          {
+            "result": {
+              "duration": 160810294,
+              "status": "passed"
+            },
+            "match": {
+              "location": "SetUp.tearDownTest(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 9582937616,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "User has to be on activity information page",
+            "match": {
+              "location": "EnterUsingScenerioOutline.user_has_to_be_on_activity_information_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1335801175,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "Try entering values \"active\" and \"admin\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "active",
+                  "offset": 21
+                },
+                {
+                  "val": "admin",
+                  "offset": 34
+                }
+              ],
+              "location": "EnterUsingScenerioOutline.try_entering_values_user_and_status(String,String)"
+            },
+            "matchedColumns": [
+              0,
+              1
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 116001111,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "Values are entered without any error",
+            "match": {
+              "location": "EnterUsingScenerioOutline.given_values_are_entered_without_any_error()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 1,
+            "name": "@IntegrationTest"
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 2214101816,
+              "status": "passed"
+            },
+            "match": {
+              "location": "SetUp.initializeTest()"
+            }
+          }
+        ],
+        "line": 11,
+        "name": "Enter Given data",
+        "description": "",
+        "id": "enter-all-values;enter-given-data;;3",
+        "after": [
+          {
+            "result": {
+              "duration": 155667240,
+              "status": "passed"
+            },
+            "match": {
+              "location": "SetUp.tearDownTest(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 3440757418,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "User has to be on activity information page",
+            "match": {
+              "location": "EnterUsingScenerioOutline.user_has_to_be_on_activity_information_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1069706145,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "Try entering values \"away\" and \"student1\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "away",
+                  "offset": 21
+                },
+                {
+                  "val": "student1",
+                  "offset": 32
+                }
+              ],
+              "location": "EnterUsingScenerioOutline.try_entering_values_user_and_status(String,String)"
+            },
+            "matchedColumns": [
+              0,
+              1
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 261637996,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "Values are entered without any error",
+            "match": {
+              "location": "EnterUsingScenerioOutline.given_values_are_entered_without_any_error()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 1,
+            "name": "@IntegrationTest"
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 2099889894,
+              "status": "passed"
+            },
+            "match": {
+              "location": "SetUp.initializeTest()"
+            }
+          }
+        ],
+        "line": 12,
+        "name": "Enter Given data",
+        "description": "",
+        "id": "enter-all-values;enter-given-data;;4",
+        "after": [
+          {
+            "result": {
+              "duration": 160923819,
+              "status": "passed"
+            },
+            "match": {
+              "location": "SetUp.tearDownTest(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 3479625344,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "User has to be on activity information page",
+            "match": {
+              "location": "EnterUsingScenerioOutline.user_has_to_be_on_activity_information_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1435318513,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "Try entering values \"sleep\" and \"student2\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "sleep",
+                  "offset": 21
+                },
+                {
+                  "val": "student2",
+                  "offset": 33
+                }
+              ],
+              "location": "EnterUsingScenerioOutline.try_entering_values_user_and_status(String,String)"
+            },
+            "matchedColumns": [
+              0,
+              1
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 105170260,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "Values are entered without any error",
+            "match": {
+              "location": "EnterUsingScenerioOutline.given_values_are_entered_without_any_error()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 1,
+            "name": "@IntegrationTest"
+          }
+        ]
+      }
+    ],
+    "name": "Enter All Values",
+    "description": "",
+    "id": "enter-all-values",
+    "keyword": "Feature",
+    "uri": "enter_using_scenerio_outline.feature",
+    "tags": [
+      {
+        "line": 1,
+        "name": "@IntegrationTest"
+      }
+    ]
+  },
+  {
+    "line": 2,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 2189339169,
+              "status": "passed"
+            },
+            "match": {
+              "location": "SetUp.initializeTest()"
+            }
+          }
+        ],
+        "line": 4,
+        "name": "Log in with valid credentials",
+        "description": "",
+        "id": "login-feature;log-in-with-valid-credentials",
+        "after": [
+          {
+            "result": {
+              "duration": 157323008,
+              "status": "passed"
+            },
+            "match": {
+              "location": "SetUp.tearDownTest(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 725008078,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "User need to be on the signin page",
+            "match": {
+              "location": "LoginSteps.user_need_to_be_on_the_signin_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 2215909354,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "Login with valid email and password",
+            "match": {
+              "location": "LoginSteps.login_with_valid_email_and_password()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 57641397,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "User shall be allowed to login no error message shown",
+            "match": {
+              "location": "LoginSteps.user_shall_be_allowed_to_login_no_error_message_shown()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Login feature",
+    "description": "",
+    "id": "login-feature",
+    "keyword": "Feature",
+    "uri": "login.feature",
+    "tags": [
+      {
+        "line": 1,
+        "name": "@SmokeTest"
+      }
+    ]
+  }
+]
